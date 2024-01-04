@@ -79,4 +79,4 @@ fabric.properties
 
 ### Ansible template
 *.retry
-!/inventory/hosts
+inventory/hosts
