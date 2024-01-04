@@ -2,9 +2,9 @@ Personal IaC playbook for setting up a home media server. This is my first IaC p
 Feel free to open an issue if you have a recommendation or question, or if you spot some glaring issue I've missed.
 
 TODO
-- [ ] Get connected to server
+- [x] Get connected to server
 - [ ] Essentials
-  - [ ] Update/Upgrade
+  - [x] Update/Upgrade
   - [ ] Harden SSH
   - [ ] Passwordless sudo
 - [ ] Ngnix ssl reverse proxy

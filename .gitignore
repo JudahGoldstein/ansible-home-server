@@ -80,3 +80,4 @@ fabric.properties
 ### Ansible template
 *.retry
 inventory/hosts
+inventory/group_vars/all/vars.yml
