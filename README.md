@@ -1,0 +1,7 @@
+- [ ] Get connected to server
+- [ ] Housekeeping
+  - [ ] Update/Upgrade
+  - [ ] Harden SSH
+  - [ ] Passwordless sudo
+- [ ] Backups
+- [ ] arr suite
