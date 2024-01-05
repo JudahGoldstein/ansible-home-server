@@ -1,0 +1,25 @@
+- name: Update all packages to their latest version
+  apt:
+    name: "*"
+    state: latest
+
+- name: Install core packages
+  apt:
+    name: "{{ item }}"
+    state: latest
+  loop: "{{ core }}"
+
+- name: Check if reboot required
+  stat:
+    path: /var/run/reboot-required
+  register: reboot_required_file
+
+- name: Reboot if required
+  reboot:
+    msg: Rebooting due to a kernel update
+  when: reboot_required_file.stat.exists
+
+- name: Remove dependencies that are no longer required and purge their configuration files
+  apt:
+    autoremove: yes
+    purge: true

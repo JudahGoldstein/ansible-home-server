@@ -2,6 +2,8 @@
 - name: run playbook
   hosts: all
   become: yes
-
   roles:
     - role: roles/system
+    - role: geerlingguy.docker
+    - role: geerlingguy.docker
+    - role: geerlingguy.nginx

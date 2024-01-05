@@ -1,2 +1,4 @@
 ---
-- include_tasks: updates.yml
+- include_tasks: corePackages.yml
+- include_tasks: passwordless.yml
+- include_tasks: users.yml

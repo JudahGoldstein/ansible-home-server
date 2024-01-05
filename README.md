@@ -5,10 +5,11 @@ Script assumes a fresh non-LTS ubuntu server with ssh keys already set up. (inst
 
 TODO
 - [x] Get connected to server
-- [ ] Essentials
+- [x] Essentials
   - [x] Update/Upgrade
-  - [ ] Harden SSH
-  - [ ] Passwordless sudo
+  - [x] Passwordless sudo
+  - [x] Users/Groups
+- [ ] Docker
 - [ ] Ngnix ssl reverse proxy
 - [ ] Pi-hole
 - [ ] Backups
